@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    max-width: 1920px;
+    max-height: 1080px;
+}
+
+.block{
+    width: 28px;
+    height: 28px;
+    border: 1px solid black;
+    background-color: white;
+    display: block;
+    font-size: 8px;
+    color: red;
+}
+
+.red{
+    background-color: red;
+}
+
+.content__container{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(64, 30px);
+    grid-template-rows: repeat(36, 30px);
+}
+
+.start{
+    padding: 10px 5px;
+    background-color: gray;
+    color: white;
+}
+.stop{
+    padding: 10px 5px;
+    background-color: gray;
+    color: white;
+}
